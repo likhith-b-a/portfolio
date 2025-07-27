@@ -112,7 +112,7 @@ function Portfolio() {
                 key={id}
                 id={id}
                 ref={sectionRefs[id]}
-                className={`min-h-screen flex items-center justify-center snap-start ${
+                className={`min-h-screen min-w-75vw flex items-center justify-center snap-start ${
                   id === "contact" ? "pb-0" : ""
                 }`}
               >

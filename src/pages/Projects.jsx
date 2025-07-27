@@ -650,8 +650,8 @@ const Projects = () => {
   }, [isTransitioning, filteredProjects.length, isMobile]);
 
   return (
-    <div className={styles.bg + " min-h-screen relative overflow-hidden"}>
-      <div className="relative z-10 p-4 md:p-8">
+    <div className={styles.bg + " min-h-screen relative min-w-screen overflow-hidden"}>
+      <div className="relative z-10 p-16 md:p-8">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="text-center mb-8">
