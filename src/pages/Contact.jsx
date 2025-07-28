@@ -53,7 +53,7 @@ const contactInfo = [
   {
     icon: <FaEnvelope />,
     label: "Email",
-    value: "likhithba2005@gmail.com", 
+    value: "likhithba2005@gmail.com",
     link: "mailto:likhithba2005@gmail.com",
   },
   {
@@ -66,8 +66,8 @@ const contactInfo = [
     icon: <FaMapMarkerAlt />,
     label: "Location",
     value: "Sira, Karnataka",
-    link: "https://maps.google.com/?q=Udupi,Karnataka",
-  }
+    link: "https://www.google.com/maps/place/Sira+Karnataka/",
+  },
 ];
 
 const socialLinks = [
